@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    gap: 720px;
+}
+
+nav ul li a {
+    color: rgb(247, 201, 0);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover {
+    color: #ff0000; 
+}
+
+
+.hero {
+    background-color: #000000;
+    color: rgb(213, 228, 8);
+    text-align: left;
+    padding: 50px 100px;
+  
+}
+
+.hero h1 {
+    font-size: 40px;
+   
+    margin-top: 60px;
+}
+
+
+.cta-btn {
+    display: inline-bloc;
+    background-color: #bba110;
+    color: #2c2c2c;
+    padding: 10px 200px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-top: 50px;
+    
+}
+
+.cta-btn:hover {
+    background-color: #f02805;
+}
+
+
+section {
+    padding: 40px 60px;
+    text-align: center;
+     background-color: #b69c26;
+}
+
+
+
+.models-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+    
+}
+
+article img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+article h3 {
+    color: #000000;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 70px auto;
+    gap: 25px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 30px;
+    font-family: inherit;
+}
+
+button {
+    background-color: #ff0d0d;
+    color: rgb(177, 207, 8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #d4af37;
+    color: #252424;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.social-links a {
+    color: #d4af37;
+    margin: 0 10px;
+}
+ 
+.hero img {
+    display: flex;
+    width: 270px;
+    margin-top: -25px;
+    margin-right: 200px;
+    border-radius: 30px;
+    height: auto;
+    float: right;
+
+}
+
+
